@@ -1,0 +1,38 @@
+.AnnouncementContainer{
+    background-color: rgba(37,183,221);
+    color: white;
+}
+.InfoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+h6{
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 2px;
+}
+.LeftInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.EmailIcon{
+    margin-right: 5px;
+}
+.PhoneIcon{
+    margin-right: 7px;
+}
+.RightInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.SocialIcon{
+    padding: 7px;
+}
+
+@media only screen and (max-width:688px) {
+    
+}
+

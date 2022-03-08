@@ -1,0 +1,24 @@
+.TrainingSlider{
+    display: flex;
+    gap: 20px;
+}
+.TrainingSlideImgInfo{
+    display: flex;
+}
+.TrainingSlideImgInfo img{
+    width: 70px;
+    height: 70px;
+}
+
+@media only screen and (max-width:688px) {
+    .TrainingSlider{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .TrainingSlider{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}

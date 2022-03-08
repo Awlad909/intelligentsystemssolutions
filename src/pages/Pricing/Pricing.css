@@ -1,0 +1,34 @@
+.PricingContainer{
+    margin-left: 50px;
+}
+.PricingCardDesc{
+    padding: 15px;
+}
+.Price{
+    position: relative;
+    top: 16px;
+}
+.PricingCardInfo{
+    background-color: #f6f6f6;
+    margin-top: 7px;
+    text-align: center;
+}
+.PricingCardInfo:hover{
+    background-color: rgba(1,103,117);
+    color: white;
+}
+
+.ViewBtn{
+    width: 60%;
+    border-radius: 40px;
+    margin: auto;
+}
+.ViewBtn button{
+    width: 100%;
+    background-color: #25b7d3;
+    border-color: #25b7d3;
+    padding: 8px;
+    border: none;
+    border-radius: 40px;
+    font-size: 18px;
+}

@@ -1,0 +1,21 @@
+.ClientsContainer{
+    background-color: rgba(246,246,246);
+}
+.ClientInfo{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    gap: 20px;
+}
+
+@media only screen and (max-width:688px) {
+    .ClientInfo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .ClientInfo{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}

@@ -1,0 +1,138 @@
+.TestimonialContainer{
+    background-image: url(../../images/testi.png);
+}
+.TestimonialInfo{
+    display: grid;
+    color: white;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+.TestimonialRightInfo{
+    border-left: 2px solid white;
+}
+.TestimonialRightInfo h3{
+    color: #ccc;
+    padding-bottom: 20px;
+}
+.TestimonialRightInfo p{
+    color: #ccc;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.carouselInfo{
+    width: 60%;
+    display: flex;
+    margin-top: 30px;
+}
+.carouselLeftInfo{
+    width: 50%;
+}
+.carouselLeftInfo img{
+    width: 60%;
+    height: 60%;
+    border: 4px solid rgba(248,181,33);
+    border-radius: 50%;
+}
+.carouselRightInfo{
+    width: 60%;
+}
+.carouselRightInfo h4{
+    width: 100%;
+    position: relative;
+    margin-left:-25px;
+}
+.carouselRightInfo p{
+    width: 100%;
+    position: relative;
+    margin-left:-25px;
+}
+.EmailInfo{
+    height: 8vh;
+    width: 90%;
+    margin-left: 5%;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+.EmailInfo input{
+    width: 90%;
+    height: 102%;
+    margin-left: 10%;
+    padding-left: 10px;
+    font-size: 18px;
+    position: relative;
+    bottom: 102%;
+    border: none;
+}
+.EmailIon{
+    background-color: #ccc;
+    width: 10%;
+    padding: 10px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+.SubscribeBtn{
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+.SubscribeBtn button{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(21, 20, 20);
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.SubscribeBtn button:hover{
+    border: 2px solid white;
+    background-color: white;
+    color: #474747;
+
+}
+@media only screen and (max-width:688px) {
+    .TestimonialInfo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .EmailInfo input{
+        height: 98%;
+        position: relative;
+        bottom: 99%;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .TestimonialInfo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .carouselInfo{
+        width: 100%;
+    }
+    .carouselRightInfo h4{
+        font-size: 20px;
+    }
+    .EmailInfo input{
+        height: 99%;
+        position: relative;
+        bottom: 100%;
+        margin-left: 40px;
+    }
+    .EmailIon{
+        width: 20%;
+        padding: 10px;
+    }
+    .SubscribeBtn{
+        width: 60%;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+}

@@ -1,0 +1,5 @@
+.Client img{
+    width: 100%;
+    height: 74px;
+    object-fit: contain;
+}

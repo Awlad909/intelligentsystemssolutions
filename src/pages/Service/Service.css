@@ -1,0 +1,65 @@
+.serviceCard{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    height: 100%;
+
+}
+.serviceInfo h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    color: #222;
+    font-weight: 400;
+}
+.serviceInfo p{
+    color: #3e3b3b;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.ReadBtn{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    border-radius: 40px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.ReadBtn button{
+    width: 100%;
+    border-radius: 40px;
+    border: none;
+    padding: 5px;
+    background-color: white;
+}
+.circleThree{
+    position: relative;
+    bottom: 8px;
+    margin-left: 98%;
+    border: 1px solid #ccc;
+    background-color: ghostwhite;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width:688px) {
+    .circleThree{
+        display: none;
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px){
+    .ReadBtn{
+        width: 50%;
+    }
+    .ReadBtn button{
+        width: 100%;
+    }
+    .circleThree{
+        display: none;
+    }
+}

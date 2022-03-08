@@ -1,0 +1,21 @@
+.PricingCard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width:688px) {
+    .PricingCard{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 98%;
+    }
+}
+@media only screen and (min-width:688px) and (max-width:991px) {
+    .PricingCard{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 98%;
+    }
+}

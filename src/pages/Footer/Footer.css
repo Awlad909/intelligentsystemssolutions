@@ -1,0 +1,89 @@
+.FooterContainer{
+    background-color: rgba(14,161,169);
+    color: white;
+}
+.FooterInfo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.FooterLeftInfo{
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+}
+.FooterLeftInfo h6{
+    line-height: 30px;
+    font-weight: 400;
+}
+.FooterRightInfo{
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+}
+.FooterRightInfo a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    line-height: 30px;
+    font-weight: 400;
+}
+.FooterMiddleInfo{
+    width: 90%;
+    text-align: center;
+    margin-top: 40px;
+}
+.FooterMiddleInfo a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/*----------- secondFooterInfo ---------- */
+.SecondFooter{
+    background-color: rgba(37,183,211);
+    color: white;
+}
+.SecondFooterInfo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.SecondFooterLeftInfo{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+.SecondFooterLeftInfo a{
+    color: white;
+    text-decoration: none;
+}
+.SecondFooterLeftInfo a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.SecondFooterRightInfo{
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+.SecondFooterRightInfo p{
+    font-size: 14px;
+}
+
+/*----- media query -------- */
+@media only screen and (max-width:688px) {
+    .FooterInfo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .SecondFooterInfo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .SecondFooterRightInfo{
+        margin-right: 100px;
+    }
+}

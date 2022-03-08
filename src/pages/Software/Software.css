@@ -1,0 +1,64 @@
+.SoftwareContainer{
+    text-align: center;
+    color: #ffffff;
+    background: #25b7d3;
+    padding: 38px;
+    margin-bottom: 40px;
+}
+.SoftwareContainer h1{
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+.SoftwareInfo{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    width: 30%;
+    margin-left: 80px;
+}
+.SoftwareImg{
+    width: 80%;
+    margin: auto;
+}
+.SoftwareImg img{
+    width: 100%;
+    padding-top: 40px;
+}
+.SoftwareInfo h3{
+    padding: 15px;
+    font-size: 24px;
+    color: #222;
+    font-weight: 400;
+    text-align: center;
+}
+.circle{
+    position: relative;
+    margin-left: 97.5%;
+    top: 7px;
+    border: 1px solid #ccc;
+    background-color: ghostwhite;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width:688px) {
+    .SoftwareInfo{
+        width: 100%;
+        margin: auto;
+    }
+    .circle{
+        display: none;
+    }
+    
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .SoftwareInfo{
+        width: 98%;
+        margin: auto;
+    }
+    .circle{
+        margin-left: 99%;
+    }
+}

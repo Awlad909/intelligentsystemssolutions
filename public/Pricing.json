@@ -1,0 +1,34 @@
+[
+    {
+        "id":1,
+        "title":"BASIC PLAN",
+        "price":"189",
+        "hosting":"Free 3 GB hosting",
+        "email":"20 Email addresses",
+        "width":"Bandwidth 5GB"
+    },
+    {
+        "id":2,
+        "title":"STANDARD",
+        "price":"199",
+        "domain":"Domain 1 year",
+        "hosting":"Hosting 1 GB",
+        "email":"Email accounts"
+    },
+    {
+        "id":3,
+        "title":"ADVANCE",
+        "price":"249",
+        "domain":"Domain 1 year",
+        "hosting":"Hosting 5 GB",
+        "email":"Email Accounts"
+    },
+    {
+        "id":3,
+        "title":"BUSINESS PACKAGE",
+        "price":"499",
+        "hosting":"Free 10GB hosting",
+        "width":"Bandwidth 5 GB",
+        "email":"50 Email Accounts"
+    }
+]

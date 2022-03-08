@@ -1,0 +1,30 @@
+.ServiceContainer{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #25b7d3;
+    padding: 38px;
+    margin-bottom: 40px;
+}
+.ServiceContainer h2{
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.serviceInfoContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media only screen and (max-width:688px) {
+    .serviceInfoContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width:689px) and (max-width:991px) {
+    .serviceInfoContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}

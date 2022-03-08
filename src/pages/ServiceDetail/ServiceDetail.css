@@ -1,0 +1,20 @@
+.ServiceDetail{
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: #25b7d3;
+    padding: 38px;
+    margin-bottom: 40px;
+}
+.ServiceDetailInfo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+@media only screen and (max-width:688px) {
+    .ServiceDetailInfo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
