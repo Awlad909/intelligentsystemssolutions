@@ -13,7 +13,7 @@ const Training = () => {
         <div className="TrainingLeftInfo">
           <div className="TrainingImg">
             <img
-              src="https://intelligentsystems.com.bd/upload/training/corporate-it-training-solutions_74e6f9.jpeg"
+              src="https://www.okokitsolutions.com/wp-content/uploads/2021/03/conduct-the-perfect-meeting-3.png"
               alt=""
             />
           </div>
@@ -30,7 +30,7 @@ const Training = () => {
         <div className="TrainingRightInfo">
           <div className="TrainingImg">
             <img
-              src="https://intelligentsystems.com.bd/upload/training/classroom-training_a94ba2.jpeg"
+              src="https://blog.commlabindia.com/wp-content/uploads/2012/12/classroom-training-1.jpg"
               alt=""
             />
           </div>

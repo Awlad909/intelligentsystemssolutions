@@ -20,7 +20,7 @@ const Testimonial = () => {
                       <div className="carouselLeftInfo">
                       <div>
                       <img
-                      src="https://intelligentsystems.com.bd/upload/client/5d47e91ec6f89.png"
+                      src="https://www.linkpicture.com/q/team_1_1.jpg"
                       alt="First slide"
                     />  
                       </div>  
@@ -37,7 +37,7 @@ const Testimonial = () => {
                       <div className="carouselLeftInfo">
                       <div>
                       <img
-                      src="https://intelligentsystems.com.bd/upload/client/5d47e91ec6f89.png"
+                      src="https://www.linkpicture.com/q/team_1_1.jpg"
                       alt="First slide"
                     />  
                       </div>  

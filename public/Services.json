@@ -2,37 +2,37 @@
     {
         "id":1,
         "name":"Software Quality Assurance",
-        "image":"https://intelligentsystems.com.bd/upload/service/5d4559d26a192.png",
+        "image":"https://www.linkpicture.com/q/softwareQuality.png",
         "desc":"Software quality assurance consists of a means of monitoring the software engineering processes and methods used to ensure..."
     },
     {
         "id":2,
         "name":"Application Security Testing",
-        "image":"https://intelligentsystems.com.bd/upload/service/5d455914ad363.png",
+        "image":"https://www.linkpicture.com/q/SecurityTesting.png",
         "desc":"We are the most experience company in security development."
     },
     {
         "id":3,
         "name":"E-commerce Application Development",
-        "image":"https://intelligentsystems.com.bd/upload/service/5d4559ab62ef8.png",
+        "image":"https://www.linkpicture.com/q/E-commerce.png",
         "desc":"E-Commerce is the booming sector in Bangladesh."
     },
     {
         "id":4,
         "name":"Mobile Apps Development",
-        "image":"https://intelligentsystems.com.bd/upload/service/5d455a1227b26.png",
+        "image":"https://www.linkpicture.com/q/ModileApps.png",
         "desc":"Mobile app development is the act or process by which a mobile app is developed for mobile devices, such as personal dig..."
     },
     {
         "id":5,
         "name":"Web Application Development",
-        "image":"https://intelligentsystems.com.bd/upload/service/5d4558db4c1b0.png",
+        "image":"https://www.linkpicture.com/q/WebApplication.png",
         "desc":"Best Web Application Development Company in Bangladesh and providing best services."
     },
     {
         "id":6,
         "name":"Software Development",
-        "image":"https://intelligentsystems.com.bd/upload/service/5d45586b104d8.png",
+        "image":"https://www.linkpicture.com/q/software_dev.png",
         "desc":"Best Web Development Company in Bangladesh."
     }
 ]
